@@ -134,3 +134,15 @@
     height: 500px;
     border-radius: 20px;
 }
+
+.first-line p {
+    font-size: 2rem;
+}
+
+.main-para {
+    margin-top: 10px;
+}
+
+.main-para p {
+    font-size: 1rem;
+}
