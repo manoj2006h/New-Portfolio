@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/* Nav bar */
+.nav {
+    height: 60px;
+    background-image: linear-gradient(to bottom, rgb(93, 93, 100), rgb(40, 26, 103));
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.1px solid grey;
+}
+
+
+.present a{
+    color: rgb(156, 156, 226);
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.other-opt a{
+    color: rgb(221, 221, 221);
+}
+
+.lists {
+    display: flex;
+    gap: 20px;
+}
+
+.lists a {
+    text-decoration: none;
+}
+
+.lists a:hover {
+  text-decoration: underline;
+  color: rgb(156, 156, 226);
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: rgb(221, 221, 221);
+}
+
+.lists p {
+    font-size: 1rem;
+    font-weight: bolder;
+    
+}
+
+/* Hero section */
+
+.hero {
+    background-image: url("90595.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* hero left */
+
+.hero-left {
+    font-size: 1.8rem;
+    margin-left: 80px;
+}
+
+.hero-second {
+    font-size: 3.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-third {
+    font-size: 1.8rem;
+}
+
+.round-img img {
+    margin-top: 40px;
+    width:40px;
+}
+
+/* hero right */
+
+.manoj-img img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 50px;
+}
+
+/* responsive */
+
