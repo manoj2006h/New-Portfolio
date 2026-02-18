@@ -16,13 +16,13 @@
 }
 
 
-.present a{
+.present a {
     color: rgb(156, 156, 226);
     font-style: oblique;
     font-weight: bolder;
 }
 
-.other-opt a{
+.other-opt a {
     color: rgb(221, 221, 221);
 }
 
@@ -36,8 +36,8 @@
 }
 
 .lists a:hover {
-  text-decoration: underline;
-  color: rgb(156, 156, 226);
+    text-decoration: underline;
+    color: rgb(156, 156, 226);
 }
 
 .logo {
@@ -49,7 +49,7 @@
 .lists p {
     font-size: 1rem;
     font-weight: bolder;
-    
+
 }
 
 /* Hero section */
@@ -91,18 +91,46 @@
 
 .round-img img {
     margin-top: 40px;
-    width:40px;
+    width: 40px;
 }
 
 /* hero right */
 
 .manoj-img img {
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 50px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 50px;
 }
 
-/* responsive */
+/* about.html */
 
+.partition {
+    display: flex;
+    gap: 20px;
+    /* background-color: pink; */
+    /* border: 2px solid white; */
+    height: 80%;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-left {
+    margin-left: 10px;
+}
+
+.box-left p {
+    font-size: 1.5rem;
+}
+
+.box-right {
+    margin-left: 20px;
+    margin-right: 8%;
+}
+
+.image-about img {
+    height: 500px;
+    border-radius: 20px;
+}
